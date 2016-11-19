@@ -8,22 +8,22 @@
 
 import Foundation
 
-class CallingPoint
+public class CallingPoint
 {
-    let locationName: String?
-    let crs: String?
+    public let locationName: String?
+    public let crs: String?
 
-    let st: String?
-    let et: String?
-    let at: String?
+    public let st: String?
+    public let et: String?
+    public let at: String?
 
-    let isCancelled: Bool?
-    let length: Int?
-    let detachFront: Bool?
+    public let isCancelled: Bool?
+    public let length: Int?
+    public let detachFront: Bool?
     
-    let adhocAlerts: String?
+    public let adhocAlerts: String?
     
-    required init(from dictionary: [String: Any])
+    public required init(from dictionary: [String: Any])
     {
         crs = dictionary["crs"] as? String
         locationName = dictionary["locationName"] as? String

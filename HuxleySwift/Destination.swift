@@ -8,16 +8,16 @@
 
 import Foundation
 
-class Destination
+public class Destination
 {
-    let locationName: String?
-    let crs: String?
+    public let locationName: String?
+    public let crs: String?
     
-    let via: String?
-    let futureChangeTo: String?
-    let assocIsCancelled: String?
+    public let via: String?
+    public let futureChangeTo: String?
+    public let assocIsCancelled: String?
     
-    required init(from dictionary: [String: Any])
+    public required init(from dictionary: [String: Any])
     {
         crs = dictionary["crs"] as? String
         locationName = dictionary["locationName"] as? String

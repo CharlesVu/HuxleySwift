@@ -8,14 +8,14 @@
 
 import Foundation
 
-class SubsequentCallingPoint
+public class SubsequentCallingPoint
 {
-    private(set) var callingPoints: [CallingPoint]
-    let serviceType: Int
-    let serviceChangeRequired: Bool
-    let assocIsCancelled: Bool
+    public private(set) var callingPoints: [CallingPoint]
+    public let serviceType: Int
+    public let serviceChangeRequired: Bool
+    public let assocIsCancelled: Bool
     
-    required init(from dictionary: [String: Any])
+    public required init(from dictionary: [String: Any])
     {
         callingPoints = []
 

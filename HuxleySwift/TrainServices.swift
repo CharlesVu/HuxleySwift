@@ -8,39 +8,39 @@
 
 import Foundation
 
-class TrainServices
+public class TrainServices
 {
-    private(set) var subsequentCallingPoints: [SubsequentCallingPoint] = []
-    private(set) var origin: Origin?
-    private(set) var destination: Destination?
+    public private(set) var subsequentCallingPoints: [SubsequentCallingPoint] = []
+    public private(set) var origin: Origin?
+    public private(set) var destination: Destination?
     
-    let currentOrigins: String?
-    let currentDestinations: String?
-    let rsid: String?
-    let sta: String?
-    let eta: String?
-    let etd: String?
+    public let currentOrigins: String?
+    public let currentDestinations: String?
+    public let rsid: String?
+    public let sta: String?
+    public let eta: String?
+    public let etd: String?
     
-    let platform: String?
-    let `operator`: String?
-    let operatorCode: String?
+    public let platform: String?
+    public let `operator`: String?
+    public let operatorCode: String?
     
-    let isCircularRoute: Bool
-    let isCancelled: Bool
-    let filterLocationCancelled: Bool
-    let serviceType: Int
-    let length: Int
-    let detachFront: Bool
-    let isReverseFormation: Bool
-    let cancelReason: String?
-    let delayReason: String?
-    let serviceID: String?
-    let serviceIdPercentEncoded: String?
-    let serviceIdGuid: String?
-    let serviceIdUrlSafe: String?
-    let adhocAlerts: String?
+    public let isCircularRoute: Bool
+    public let isCancelled: Bool
+    public let filterLocationCancelled: Bool
+    public let serviceType: Int
+    public let length: Int
+    public let detachFront: Bool
+    public let isReverseFormation: Bool
+    public let cancelReason: String?
+    public let delayReason: String?
+    public let serviceID: String?
+    public let serviceIdPercentEncoded: String?
+    public let serviceIdGuid: String?
+    public let serviceIdUrlSafe: String?
+    public let adhocAlerts: String?
     
-    required init(from dictionary: [String: Any])
+    public required init(from dictionary: [String: Any])
     {
         if let subsequentCallingPointsData = dictionary["subsequentCallingPoints"] as? [[String:Any]]
         {

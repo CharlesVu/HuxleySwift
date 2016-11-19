@@ -10,8 +10,8 @@ import Foundation
 
 class Departures
 {
-    private(set) var trainServices: [TrainServices] = []
-    let locationName: String?
+    public private(set) var trainServices: [TrainServices] = []
+    public let locationName: String?
     
     required init(from dictionary: [String: Any])
     {
