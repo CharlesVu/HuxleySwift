@@ -8,12 +8,12 @@
 
 import Foundation
 
-class Departures
+public class Departures
 {
     public private(set) var trainServices: [TrainServices] = []
     public let locationName: String?
     
-    required init(from dictionary: [String: Any])
+    public required init(from dictionary: [String: Any])
     {
         if let trainServicesData = dictionary["trainServices"] as? [[String:Any]]
         {
