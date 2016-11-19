@@ -8,12 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		563FC5F51DE0BA2400394E4A /* HuxleySwift.h in Headers */ = {isa = PBXBuildFile; fileRef = 563FC5F31DE0BA2400394E4A /* HuxleySwift.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		563FC5FC1DE0BC1400394E4A /* CallingPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 563FC5FB1DE0BC1400394E4A /* CallingPoint.swift */; };
+		563FC5FE1DE0BFC100394E4A /* Destination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 563FC5FD1DE0BFC100394E4A /* Destination.swift */; };
+		563FC6001DE0C03600394E4A /* Origin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 563FC5FF1DE0C03600394E4A /* Origin.swift */; };
+		563FC6041DE0C23E00394E4A /* SubsequentCallingPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 563FC6031DE0C23E00394E4A /* SubsequentCallingPoint.swift */; };
+		563FC6061DE0C3AC00394E4A /* TrainServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 563FC6051DE0C3AC00394E4A /* TrainServices.swift */; };
+		563FC6081DE0C84F00394E4A /* Departures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 563FC6071DE0C84F00394E4A /* Departures.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		563FC5F01DE0BA2400394E4A /* HuxleySwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HuxleySwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		563FC5F01DE0BA2400394E4A /* Huxley.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Huxley.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		563FC5F31DE0BA2400394E4A /* HuxleySwift.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HuxleySwift.h; sourceTree = "<group>"; };
 		563FC5F41DE0BA2400394E4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		563FC5FB1DE0BC1400394E4A /* CallingPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CallingPoint.swift; sourceTree = "<group>"; };
+		563FC5FD1DE0BFC100394E4A /* Destination.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Destination.swift; sourceTree = "<group>"; };
+		563FC5FF1DE0C03600394E4A /* Origin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Origin.swift; sourceTree = "<group>"; };
+		563FC6031DE0C23E00394E4A /* SubsequentCallingPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubsequentCallingPoint.swift; sourceTree = "<group>"; };
+		563FC6051DE0C3AC00394E4A /* TrainServices.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrainServices.swift; sourceTree = "<group>"; };
+		563FC6071DE0C84F00394E4A /* Departures.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Departures.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,7 +50,7 @@
 		563FC5F11DE0BA2400394E4A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				563FC5F01DE0BA2400394E4A /* HuxleySwift.framework */,
+				563FC5F01DE0BA2400394E4A /* Huxley.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -48,6 +60,12 @@
 			children = (
 				563FC5F31DE0BA2400394E4A /* HuxleySwift.h */,
 				563FC5F41DE0BA2400394E4A /* Info.plist */,
+				563FC5FB1DE0BC1400394E4A /* CallingPoint.swift */,
+				563FC5FD1DE0BFC100394E4A /* Destination.swift */,
+				563FC6031DE0C23E00394E4A /* SubsequentCallingPoint.swift */,
+				563FC5FF1DE0C03600394E4A /* Origin.swift */,
+				563FC6051DE0C3AC00394E4A /* TrainServices.swift */,
+				563FC6071DE0C84F00394E4A /* Departures.swift */,
 			);
 			path = HuxleySwift;
 			sourceTree = "<group>";
@@ -66,9 +84,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		563FC5EF1DE0BA2400394E4A /* HuxleySwift */ = {
+		563FC5EF1DE0BA2400394E4A /* Huxley */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 563FC5F81DE0BA2400394E4A /* Build configuration list for PBXNativeTarget "HuxleySwift" */;
+			buildConfigurationList = 563FC5F81DE0BA2400394E4A /* Build configuration list for PBXNativeTarget "Huxley" */;
 			buildPhases = (
 				563FC5EB1DE0BA2400394E4A /* Sources */,
 				563FC5EC1DE0BA2400394E4A /* Frameworks */,
@@ -79,9 +97,9 @@
 			);
 			dependencies = (
 			);
-			name = HuxleySwift;
+			name = Huxley;
 			productName = HuxleySwift;
-			productReference = 563FC5F01DE0BA2400394E4A /* HuxleySwift.framework */;
+			productReference = 563FC5F01DE0BA2400394E4A /* Huxley.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -96,6 +114,7 @@
 					563FC5EF1DE0BA2400394E4A = {
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = TYBW749P94;
+						LastSwiftMigration = 0810;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -112,7 +131,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				563FC5EF1DE0BA2400394E4A /* HuxleySwift */,
+				563FC5EF1DE0BA2400394E4A /* Huxley */,
 			);
 		};
 /* End PBXProject section */
@@ -132,6 +151,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				563FC6081DE0C84F00394E4A /* Departures.swift in Sources */,
+				563FC5FE1DE0BFC100394E4A /* Destination.swift in Sources */,
+				563FC6061DE0C3AC00394E4A /* TrainServices.swift in Sources */,
+				563FC5FC1DE0BC1400394E4A /* CallingPoint.swift in Sources */,
+				563FC6041DE0C23E00394E4A /* SubsequentCallingPoint.swift in Sources */,
+				563FC6001DE0C03600394E4A /* Origin.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,6 +265,7 @@
 		563FC5F91DE0BA2400394E4A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = TYBW749P94;
@@ -252,6 +278,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = uk.co.lalien.HuxleySwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -259,6 +286,7 @@
 		563FC5FA1DE0BA2400394E4A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = TYBW749P94;
@@ -287,13 +315,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		563FC5F81DE0BA2400394E4A /* Build configuration list for PBXNativeTarget "HuxleySwift" */ = {
+		563FC5F81DE0BA2400394E4A /* Build configuration list for PBXNativeTarget "Huxley" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				563FC5F91DE0BA2400394E4A /* Debug */,
 				563FC5FA1DE0BA2400394E4A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
