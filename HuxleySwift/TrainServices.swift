@@ -19,8 +19,9 @@ public class TrainServices
     public let rsid: String?
     public let sta: String?
     public let eta: String?
+    public let std: String?
     public let etd: String?
-    
+
     public let platform: String?
     public let `operator`: String?
     public let operatorCode: String?
@@ -66,7 +67,8 @@ public class TrainServices
         sta = dictionary["sta"] as? String
         eta = dictionary["eta"] as? String
         etd = dictionary["etd"] as? String
-        
+        std = dictionary["std"] as? String
+
         platform = dictionary["platform"] as? String
         `operator` = dictionary["operator"] as? String
         operatorCode = dictionary["operatorCode"] as? String
