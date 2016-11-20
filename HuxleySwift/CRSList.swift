@@ -8,7 +8,7 @@
 
 import Foundation
 
-class CRSList
+public class CRSList
 {
     public var crsToName: [String: String] = [:]
     
