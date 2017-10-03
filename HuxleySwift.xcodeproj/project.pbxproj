@@ -26,7 +26,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		39C873FB1F7AD591005966F1 /* HuxleyTV.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HuxleyTV.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		39C873FB1F7AD591005966F1 /* Huxley.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Huxley.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		39C873FD1F7AD591005966F1 /* HuxleyTV.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HuxleyTV.h; sourceTree = "<group>"; };
 		39C873FE1F7AD591005966F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		563FC5F01DE0BA2400394E4A /* Huxley.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Huxley.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -81,7 +81,7 @@
 			isa = PBXGroup;
 			children = (
 				563FC5F01DE0BA2400394E4A /* Huxley.framework */,
-				39C873FB1F7AD591005966F1 /* HuxleyTV.framework */,
+				39C873FB1F7AD591005966F1 /* Huxley.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -139,7 +139,7 @@
 			);
 			name = HuxleyTV;
 			productName = HuxleyTV;
-			productReference = 39C873FB1F7AD591005966F1 /* HuxleyTV.framework */;
+			productReference = 39C873FB1F7AD591005966F1 /* Huxley.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		563FC5EF1DE0BA2400394E4A /* Huxley */ = {
@@ -274,7 +274,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = vu.charles.HuxleyTV;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = Huxley;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.0;
@@ -308,7 +308,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = vu.charles.HuxleyTV;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = Huxley;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.0;
