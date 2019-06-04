@@ -10,5 +10,5 @@ import Foundation
 
 public class Departures: Codable {
     public private(set) var trainServices: [TrainServices] = []
-    public let locationName: String?
+    public let locationName: String
 }
