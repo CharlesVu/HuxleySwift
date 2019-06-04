@@ -14,5 +14,5 @@ public class Destination: Codable {
     
     public let via: String?
     public let futureChangeTo: String?
-    public let assocIsCancelled: String?
+    public let assocIsCancelled: Bool
 }
