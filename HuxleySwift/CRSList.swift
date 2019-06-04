@@ -8,14 +8,11 @@
 
 import Foundation
 
-public class CRSList
-{
+public class CRSList {
     public var crsToName: [String: String] = [:]
     
-    public required init(from array: [[String: String]])
-    {
-        for crsData in array
-        {
+    public required init(from array: [[String: String]]) {
+        for crsData in array {
             let crsCode = crsData["crsCode"]!
             let stationName = crsData["stationName"]!
 

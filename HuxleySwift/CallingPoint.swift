@@ -8,8 +8,7 @@
 
 import Foundation
 
-public class CallingPoint
-{
+public class CallingPoint: Codable {
     public let locationName: String?
     public let crs: String?
 
@@ -22,20 +21,4 @@ public class CallingPoint
     public let detachFront: Bool?
     
     public let adhocAlerts: String?
-    
-    public required init(from dictionary: [String: Any])
-    {
-        crs = dictionary["crs"] as? String
-        locationName = dictionary["locationName"] as? String
-
-        st = dictionary["st"] as? String
-        et = dictionary["et"] as? String
-        at = dictionary["at"] as? String
-
-        isCancelled = dictionary["isCancelled"] as? Bool
-        length = dictionary["length"] as? Int
-        detachFront = dictionary["detachFront"] as? Bool
-
-        adhocAlerts = dictionary["adhocAlerts"] as? String
-    }
 }
