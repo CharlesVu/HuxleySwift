@@ -9,8 +9,8 @@
 import Foundation
 
 public class Origin: Codable {
-    public let locationName: String?
-    public let crs: String?
+    public let locationName: String
+    public let crs: String
     
     public let via: String?
     public let futureChangeTo: String?
