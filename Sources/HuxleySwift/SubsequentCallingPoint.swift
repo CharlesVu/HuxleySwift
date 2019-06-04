@@ -9,7 +9,7 @@
 import Foundation
 
 public class SubsequentCallingPoint: Codable {
-    public private(set) var callingPoints: [CallingPoint] = []
+    public private(set) var callingPoints: [CallingPoint]? = []
     public let serviceType: Int
     public let serviceChangeRequired: Bool
     public let assocIsCancelled: Bool
