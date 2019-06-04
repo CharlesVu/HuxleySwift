@@ -10,8 +10,8 @@ import Foundation
 
 public class TrainServices : Codable {
     public private(set) var subsequentCallingPoints: [SubsequentCallingPoint] = []
-    public private(set) var origin: Origin?
-    public private(set) var destination: Destination?
+    public private(set) var origin: [Origin]?
+    public private(set) var destination: [Destination]?
 
     public let currentOrigins: String?
     public let currentDestinations: String?
