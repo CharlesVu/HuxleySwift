@@ -21,9 +21,9 @@ public class TrainServices : Codable {
     public let std: String
     public let etd: String
 
-    public let platform: String
-    public let `operator`: String
-    public let operatorCode: String
+    public let platform: String?
+    public let `operator`: String?
+    public let operatorCode: String?
 
     public let isCircularRoute: Bool
     public let isCancelled: Bool
